@@ -1,0 +1,33 @@
+body {
+  background-color: #FF80AB;
+  color: #AD1457;
+  text-align: center;
+}
+
+.math {
+  padding-top: 200px;
+}
+
+.p-calc {
+  padding-top: 150px;
+}
+
+.input {
+  width: 200px;
+  height: 100px;
+}
+
+.operator {
+
+}
+
+.btn {
+  background-color: #880E4F;
+  border-color: #FF4081;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #FF4081;
+  border-color: #CE93D8;
+}
