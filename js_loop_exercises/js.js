@@ -7,7 +7,15 @@ for (i = 0; i < myArray.length; i++) {
   newArray.push(myArray[i] + 1); // Here we're pushing the incremented numbers from myArray into the new array
 }
 
+  // Code School version:
+  var myArray = [10, 20, 30, 40];
+  for (i = 0; i < myArray.length; i++) {
+    myArray[i] = myArray[i]+1;
+  };
 
+
+
+// -----------------------------------
 // Exercise 4.2.
 
 var stringyArray = ["Super", "Cali", "Fragi", "Listic", "Expi", "Ali", "Docious"];
@@ -19,7 +27,17 @@ function combine() {
 
 console.log(joinedString); // Then, print the joined values as one string
 
+  // Code School version:
+  var stringyArray = ["Super", "Cali", "Fragi", "Listic", "Expi", "Ali", "Docious"];
+  my_string = "";
+  stringyArray.forEach(function(x) {
+    my_string = my_string + x;
+    console.log("my_string is", my_string);
+  });
 
+
+
+// -----------------------------------
 // Exercise 4.3.
 
 var myArray = [10, 20, 30, 40];
