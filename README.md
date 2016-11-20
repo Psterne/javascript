@@ -42,3 +42,42 @@ of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]
 4.2. Create an array of names with Super, Cali, Fragi, Listic, Expi, Ali, Docious as values.Use a forEach loop to combine these components together into a single string.
 
 4.3. Using the array from Ex 1, find the average of the numbers in the array(average=sum of all numbers/number of numbers).
+
+
+5 -- Answers to OBJECTS exercises:
+
+5.1. Write a JavaScript program to list the properties of a JavaScript object.
+
+5.2. Write a JavaScript program to delete the one of the properties from the object in 5.1. Also print the object before or after deleting the property.
+
+5.3. Write a JavaScript program to get the length of an JavaScript object.
+
+5.4. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.
+
+      var library = [
+         {
+             author: 'Bill Gates',
+             title: 'The Road Ahead',
+             readingStatus: true
+         },
+         {
+             author: 'Steve Jobs',
+             title: 'Walter Isaacson',
+             readingStatus: true
+         },
+         {
+             author: 'Suzanne Collins',
+             title:  'Mockingjay: The Final Book of The Hunger Games',
+             readingStatus: false
+         }];
+
+5.8. Write a JavaScript program to create a Clock. Go to the editor
+
+      Note : The output will come every second.
+      Expected Console Output :
+      "14:37:42"
+      "14:37:43"
+      "14:37:44"
+      "14:37:45"
+      "14:37:46"
+      "14:37:47"
